@@ -102,6 +102,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-title-color);
+    padding: 24px 0;
 }
 
 .header-nav {
