@@ -38,6 +38,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--accent-color);
+    margin-right: 76px; 
 }
 
 .logo-dark-part {
@@ -101,6 +102,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-title-color);
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-address {
+    display: flex;
+    gap: 40px;
 }
 
 .address {
@@ -214,10 +225,15 @@ img {
 .page-nav {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 .container {
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+.menu {
+    display: flex;
+    gap: 40px;
 }
