@@ -204,3 +204,20 @@ footer {
     letter-spacing: 0.02em;
     color: var(--dark-title-color);
 }
+img {
+    display: block;
+}
+
+.hdr-style {
+    border-bottom: 1px solid #e7e9fc;
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
