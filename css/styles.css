@@ -96,6 +96,7 @@ body {
 
 .card {
     background-color: var(--white-background-color);
+    border-radius: 0 0 4px 4px;
 }
 
 .card-title {
@@ -199,6 +200,7 @@ body {
 
 .team {
     background-color: var(--light-body-color);
+    padding: 120px 0;
 }
 
 .team-title {
@@ -208,8 +210,11 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
-
+.team-member-info {
+    padding: 32px 16px;
+}
 footer {
     background-color: var(--dark-osh-color);
     padding-top: 100px;
