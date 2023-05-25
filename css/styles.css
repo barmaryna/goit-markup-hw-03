@@ -184,7 +184,7 @@ body {
 
 .descr {
     background-color: var(--white-background-color);
-    padding: 0 0 120px 0;
+    padding-bottom: 120px;
 }
 
 .descr-title {
