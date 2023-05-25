@@ -103,7 +103,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--dark-title-color);
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 24px ;
 }
 
 .header-nav {
@@ -176,6 +176,8 @@ body {
 
 footer {
     background-color: var(--dark-osh-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-text {
