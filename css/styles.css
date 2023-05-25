@@ -200,7 +200,7 @@ body {
 
 .team {
     background-color: var(--light-body-color);
-    padding: 120px 0;
+    padding: 120px 0 120px;
 }
 
 .team-title {
