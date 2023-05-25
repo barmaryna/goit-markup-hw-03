@@ -28,7 +28,7 @@ body {
 .link {
     font-family: inherit;
     text-decoration: none;
-    padding: 24px 0;
+    padding: 24px 0 24px;
 }
 
 .logo {
