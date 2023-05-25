@@ -41,11 +41,8 @@ body {
     color: var(--accent-color);
     margin-right: 76px;
 }
-
-.foot {
-    display: inline-block;
-}
 .logo-footer {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
