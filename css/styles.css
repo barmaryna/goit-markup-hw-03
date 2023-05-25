@@ -197,10 +197,6 @@ body {
     margin-bottom: 72px;
 }
 
-.descr-img-item {
-    width: calc((100% - 48px) / 3);
-}
-
 .team {
     background-color: var(--light-body-color);
 }
