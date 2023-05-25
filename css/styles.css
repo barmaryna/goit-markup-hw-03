@@ -142,6 +142,8 @@ body {
 
 .hero {
     background-color: var(--dark-osh-color);
+    padding-top: 188px;
+    padding-bottom: 188px;    )
 }
 
 .hero-title {
@@ -231,6 +233,10 @@ footer {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-title-color);
+}
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 img {
     display: block;
