@@ -70,6 +70,11 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
 }
 
 .list {
@@ -283,5 +288,5 @@ img {
     padding: 120px 0;
 }
 .about-company-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
