@@ -87,7 +87,9 @@ body {
 .header-list {
     gap: 40px;
 }
-
+.section-list {
+    gap: 24px;
+}
 .btn:hover,
 .btn:focus {
     background-color: #404bbf;
