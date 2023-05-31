@@ -251,6 +251,8 @@ footer {
 .pf-btn-list {
     justify-content: center;
     margin-bottom: 72px;
+    display: flex;
+    gap: 40px;
 }
 .pf-list {
     flex-wrap: wrap;
