@@ -42,11 +42,6 @@ body {
     margin-right: 76px;
 }
 
-.footer-link {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
 .logo-dark-part {
     color: #2E2F42;
 }
@@ -75,9 +70,7 @@ body {
     display: flex;
     gap: 24px;
 }
-.header-list {
-    gap: 40px;
-}
+
 .section-list {
     gap: 24px;
 }
@@ -111,28 +104,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--body-text-color);
     text-align: center;
-}
-
-.header {
-    background-color: var(--white-background-color);
-}
-
-.header-link {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--dark-title-color);font-weight: 500;
-    gap: 40px;
-}
-
-.header-nav {
-    display: flex;
-    align-items: center;
-}
-
-.header-address {
-    display: flex;
-    gap: 40px;
 }
 
 .address {
@@ -210,23 +181,6 @@ body {
 .team-member-info {
     padding: 32px 16px;
 }
-footer {
-    background-color: var(--dark-osh-color);
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.footer-text {
-    color: var(--light-body-color);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    width: 264px;
-}
-
-.footer-span {
-    color: #f4f4fd;
-}
-
 .pf-btn:hover,
 .pf-btn:focus {
     color: #ffffff;
@@ -313,3 +267,54 @@ img {
 .about-company-item {
     width: calc((100% - 72px) / 4);
 }
+/**------------------- HEADER -----------------*/
+.header-list {
+    gap: 40px;
+}
+
+.header {
+    background-color: var(--white-background-color);
+}
+
+.header-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-title-color);
+    font-weight: 500;
+    gap: 40px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-address {
+    display: flex;
+    gap: 40px;
+}
+/**------------------- HEADER -----------------*/
+/**------------------- FOOTER -----------------*/
+footer {
+    background-color: var(--dark-osh-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-text {
+    color: var(--light-body-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+}
+
+.footer-span {
+    color: #f4f4fd;
+}
+
+.footer-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+/**------------------- FOOTER -----------------*/
