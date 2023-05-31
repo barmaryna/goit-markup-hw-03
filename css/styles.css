@@ -41,8 +41,8 @@ body {
     color: var(--accent-color);
     margin-right: 76px;
 }
+
 .logo-footer {
-    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -52,6 +52,7 @@ body {
     text-transform: uppercase;
     color: var(--accent-color);
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-dark-part {
@@ -81,7 +82,7 @@ body {
 }
 .header-list {
     display: flex;
-    gap: 40px;
+    gap: 24px;
 }
 
 .btn:hover,
