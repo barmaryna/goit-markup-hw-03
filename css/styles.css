@@ -51,8 +51,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--accent-color);
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-dark-part {
