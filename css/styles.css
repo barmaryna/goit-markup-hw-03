@@ -320,3 +320,6 @@ footer {
     margin-bottom: 16px;
 }
 /**------------------- FOOTER -----------------*/
+.descr-img-item {
+    width: calc((100% - 48px) / 3);
+}
