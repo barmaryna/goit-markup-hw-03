@@ -240,7 +240,7 @@ footer {
 }
 
 .pf-btn {
-    padding: 12px 24px;
+    padding: 12px 24px 12px;
     border: 1px solid var(--light-accent-color);    
     background-color: var(--light-body-color);
     color: var(--accent-color);
