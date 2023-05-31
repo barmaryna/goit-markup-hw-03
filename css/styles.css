@@ -20,17 +20,16 @@ body {
     background-color: var(--white-background-color);
 }
 
-.link:hover,
-.link:focus {
-    color: #404bbf;
-}
-
 .link {
     font-family: inherit;
     text-decoration: none;
     padding: 24px 0 24px;
 }
 
+.link:hover,
+.link:focus {
+    color: var(--pressed-state-color);
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -256,7 +255,6 @@ img {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;
 }
 .menu {
     display: flex;
