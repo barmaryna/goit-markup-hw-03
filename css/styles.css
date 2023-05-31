@@ -201,7 +201,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
-    width: calc((100% - 48px) / 3);
 }
 .pf-btn-list {
     justify-content: center;
