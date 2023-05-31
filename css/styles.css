@@ -81,7 +81,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 24px;
 }
 .header-list {
     gap: 40px;
@@ -258,12 +257,13 @@ footer {
     justify-content: center;
     margin-bottom: 72px;
     display: flex;
-    gap: 40px;
+    gap: 24px;
 }
 .pf-list {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    gap: 24px;
 }
 .pf-item {
     width: calc((100% - 48px) / 3);
