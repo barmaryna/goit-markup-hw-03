@@ -278,6 +278,7 @@ footer {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-title-color);
+    margin-bottom: 8px;
 }
 .portfolio-section {
     padding-top: 96px;
