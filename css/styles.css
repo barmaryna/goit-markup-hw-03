@@ -42,6 +42,7 @@ body {
     margin-right: 76px;
 }
 .logo-footer {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -51,7 +52,6 @@ body {
     text-transform: uppercase;
     color: var(--accent-color);
     margin-bottom: 16px;
-    display: inline-block;
 }
 
 .logo-dark-part {
@@ -257,6 +257,11 @@ footer {
     justify-content: center;
     margin-bottom: 72px;
 }
+.pf-list {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 .pf-item {
     width: calc((100% - 48px) / 3);
 }
@@ -266,6 +271,7 @@ footer {
     border-top: none;
     margin-bottom: 8px;
 }
+
 .portfolio-p {
     font-size: 16px;
     line-height: 1.5;
